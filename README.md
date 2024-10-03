@@ -814,7 +814,7 @@ svm_classifier(stem_uni_stop_one_hot)
 
 Our highest performing set for the SVM classifier was lemmatization with stopword removal
 
-<h1>Logistic Regression Hyperparameter Optimisation
+# Logistic Regression Hyperparameter Optimisation
 
 For our LogReg classifier we found that parallelizing does not increase performance. The tuned hyperparameters of our fine tuned model were as follows
 + C = 1.5
@@ -841,7 +841,7 @@ evaluate_model(y_test, predictions)
     
     
 
-# SVM Hyperparameter Optimisation </h1>
+# SVM Hyperparameter Optimisation 
 
 The final tuned hyperparameters of our SVM model were as follows
 + C = 0.9
